@@ -367,12 +367,12 @@ content #write>h5.md-focus:before {
 #write h2,
 #write h3 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #write h1,
 #write h2 {
-    text-align: center;
+    text-align: left;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -408,7 +408,7 @@ content #write>h5.md-focus:before {
 }
 
 #write h2 {
-    font-size: 1.8rem;
+    font-size: 1.85rem;
     position: relative;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
@@ -419,7 +419,7 @@ content #write>h5.md-focus:before {
     display: block;
     width: 30rem;
     height: 2.5px;
-    margin: 0.5rem auto 0.3rem;
+    margin: 0.5rem 0 0.3rem;
     background: var(--write-h2-after-bg);
     border-radius: 10px;
     transform: scaleX(0);
@@ -431,15 +431,15 @@ content #write>h5.md-focus:before {
 }
 
 #write h3 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
 }
 
 #write h4 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 #write h5 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 #write h6 {
@@ -454,7 +454,7 @@ content #write>h5.md-focus:before {
     margin-top: 1.0rem;
     margin-bottom: 0.5rem;
     transition: transform 0.3s ease;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #write h3:hover,
